@@ -1,3 +1,42 @@
-body {
-
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+header {
+    margin: 0 auto;
+    width: 1280px;
+    height: 323px;
+    background: #445162;
+}
+.product_name {
+    float: left;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.product_name p {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.product_name ul {
+    margin-left: 36px;
+    margin-top: 51px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.product_name ul li {
+    list-style-image: url(images/check-icon.png);
 }
