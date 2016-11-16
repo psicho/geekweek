@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .container {
     width: 1280px;
@@ -17,8 +17,12 @@ header {
     color: #ffffff;
     margin-left: 50px;
     margin-top: 50px;
+    padding-top: -5px;
 }
-.product_name p {
+.product_name span {
+    margin-top: -12px;
+    margin-left: -3px;
+    display: block;
     font-family: Arial;
     color: #ffffff;
     font-size: 60px;
@@ -27,8 +31,9 @@ header {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
 .product_name ul {
-    margin-left: 36px;
-    margin-top: 51px;
+    display: block;
+    margin-left: 37px;
+    margin-top: 27px;
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
@@ -38,5 +43,96 @@ header {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
 .product_name ul li {
-    list-style-image: url(images/check-icon.png);
+    list-style: none;
+}
+.product_name ul li i {
+    margin-right: 10px;
+}
+.foto_product {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 469px;
+    height: 214px;
+    background: url(images/html5-css3.jpg) no-repeat center;
+    background-size: contain;
+    background-color: #ffffff;
+}
+
+main {
+    width: 1280px;
+    height: 344px;
+}
+.about_product {
+    float: left;
+    margin-top: 44px;
+    margin-left: 52px;
+}
+.about_product span {
+    display: inline-block;
+    color: #445161;
+    font: 400 30px / 36px Arial;
+    margin-bottom: 30px;
+
+}
+.about_product p {
+/*
+    margin-top: -9px;
+    margin-left: -2px;
+*/
+    width: 670px;
+    font-family: Arial;
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.foto_about {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    background: url(images/about.png) no-repeat center;
+    background-size: contain;
+}
+contacts {
+    display: block;
+    width: 1280px;
+    height: 509px;
+    background: #445162;
+}
+contacts span {
+    display: block;
+    padding-top: 50px;
+    margin-bottom: 31px;
+    text-align: center;
+    color: #ffffff;
+    font: 400 30px / 36px Arial;
+}
+form {
+    margin-left: 249px;
+}
+input {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 40px;
+    width: 490px;
+    margin-bottom: 21px;
+    padding: 5px;
+    color: #445162;
+    font: 400 16px / 24px Arial;
+}
+textarea {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 170px;
+    width: 490px;
+    padding: 5px;
+    color: #445162;
+    font: 400 16px / 24px Arial;
+
 }
