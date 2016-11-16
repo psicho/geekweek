@@ -17,7 +17,6 @@ header {
     color: #ffffff;
     margin-left: 50px;
     margin-top: 50px;
-    padding-top: -5px;
 }
 .product_name span {
     margin-top: -12px;
@@ -67,7 +66,7 @@ header {
 }
 .foto_product:hover {
 /*    background-size: cover;*/
-    background-color: lightsalmon;
+    background-color: lightsteelblue;
 }
 main {
     width: 1280px;
@@ -109,13 +108,13 @@ main {
     background: url(images/about.png) no-repeat center;
     background-size: contain;
 }
-contacts {
+.contacts_form {
     display: block;
     width: 1280px;
     height: 509px;
     background: #445162;
 }
-contacts span {
+.contacts_form span {
     display: block;
     padding-top: 50px;
     margin-bottom: 31px;
@@ -211,5 +210,4 @@ footer {
     font-weight: 400;
     letter-spacing: 0.3px;
     line-height: 24px;
-
 }
